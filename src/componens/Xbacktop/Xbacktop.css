@@ -1,0 +1,45 @@
+#backtop.active {
+	opacity: 0.7;
+	visibility: visible;
+}
+
+#backtop {
+	position: fixed;
+	right: 1.4rem;
+    bottom: 3.06667rem;
+    z-index: 999;
+    width: 4.06667rem;
+    height: 4.06667rem;
+	opacity: 0;
+	visibility: hidden;
+	background-color: #ff7a33;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
+}
+#backtop:after {
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    -webkit-transform: rotate(45deg) translateX(.13333rem);
+    transform: rotate(45deg) translateX(0.33rem);
+}
+#backtop:after, #backtop:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: block;
+    width: 1.73333rem;
+    height: 0.2rem;
+    margin-top: 1px;
+    margin-left: -0.56667rem;
+    background-color: #fff;
+
+}
+#backtop:before {
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-transform: rotate(-45deg) translateX(-.13333rem);
+    transform: rotate(-45deg) translateX(-0.33rem);
+}

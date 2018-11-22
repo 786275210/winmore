@@ -1,0 +1,256 @@
+.help-icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 3.933333rem;
+	height: 3.933333rem;
+	background-image: url(https://file.duoying.com:8092/src/mobile/member/help/img/nav_icons.png);
+	-webkit-background-size: 100% 600%;
+	background-size: 100% 600%
+}
+
+.help-icon.book {
+	background-position: 0 0
+}
+
+.help-icon.house {
+	background-position: 0 20%
+}
+
+.help-icon.user {
+	background-position: 0 40%
+}
+
+.help-icon.sheild {
+	background-position: 0 60%
+}
+
+.help-icon.bankcard {
+	background-position: 0 80%
+}
+
+.help-icon.prism {
+	background-position: 0 100%
+}
+
+.help-banner {
+	height: 12.4rem;
+	padding-top: 1.2rem;
+	background: url(https://file.duoying.com:8092/src/mobile/member/help/img/banner.png) no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover
+}
+
+.help-banner .zun {
+	margin: 0;
+	text-align: center;
+	font-size: .48rem;
+	color: #f7f6f6
+}
+
+.help-banner .ke {
+	text-align: center;
+	font-size: .34667rem;
+	color: #f7f6f6
+}
+
+.help-banner .ke a {
+	color: #f7f6f6
+}
+
+.help-banner .search-box {
+	width: 17.666667rem;
+	margin: 0 auto
+}
+
+.help-banner .search-box .search-input {
+	width: 14.333333rem
+}
+
+.help-nav {
+	margin-bottom: 0.266667rem;
+	background-color: #fff
+}
+
+.help-nav:before,
+.help-nav:after {
+	content: "";
+	display: table
+}
+
+.help-nav:after {
+	clear: both
+}
+
+.help-nav a {
+	display: block;
+	float: left;
+	width: 33.33333%;
+	height: 7.666667rem;
+	padding-top: 0.533333rem;
+	font-size: 1.373333rem;
+	line-height:3.33333rem;
+	color: #31434b;
+	text-align: center;
+	border-top: 1px solid #efefef;
+	border-left: 1px solid #efefef
+}
+
+.help-nav a:nth-of-type(3n+1) {
+	border-left: 0
+}
+
+.help-nav a span {
+	display: block
+}
+
+.help-box {
+	margin: 0.266667rem 0;
+	padding: 0 0.333333rem;
+	background-color: #fff
+}
+
+.help-box .box-head {
+	padding: 0.266667rem 0.2rem;
+	border-bottom: 1px solid #efefef
+}
+
+.help-box .box-head h3 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 1.426667rem;
+	line-height: 1.8rem;
+	color: #31434b
+}
+
+.help-box .box-head h3 .help-icon {
+	width: 0.533333rem;
+	height: 0.533333rem;
+	margin: 0.133333rem 0.133333rem 0 0
+}
+
+.help-box .box-head p {
+	margin: 0;
+	font-size: 0.426667rem;
+	line-height: 0.8rem;
+	color: #31434b
+}
+
+.help-box .box-head p b {
+	font-weight: normal;
+	color: #dd5454
+}
+
+.help-box .box-head p small {
+	float: right;
+	font-size: 0.32rem;
+	color: #797d80
+}
+
+.help-box .box-head .doubt {
+	display: inline-block;
+	vertical-align: top;
+	width: 1.426667rem;
+	height: 1.426667rem;
+	margin: 0.186667rem 0.1rem 0 0;
+	background-image: url(https://file.duoying.com:8092/src/mobile/member/help/img/doubt.png);
+	-webkit-background-size: 100%;
+	background-size: 100%
+}
+
+.help-box .box-list {
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+
+.help-box .box-list li {
+	border-bottom: 1px dashed #efefef
+}
+
+.help-box .box-list li:last-child {
+	border-bottom: 1px solid #efefef
+}
+
+.help-box .box-list li a {
+	display: block;
+	padding: 0.266667rem 1.066667rem 0.266667rem 0.2rem;
+	font-size: 1.32rem;
+	line-height: 2.533333rem;
+	color: #797d80;
+	background: url(https://file.duoying.com:8092/src/mobile/member/help/img/arrow.png) no-repeat right 0.53333rem center;
+	-webkit-background-size: 0.18667rem 0.34667rem;
+	background-size: 1.18667rem 1.34667rem
+}
+
+.help-box .box-list li a h4 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 0.346667rem;
+	color: #31434b
+}
+
+.help-box .box-list li a p {
+	margin: 0;
+	color: #9e9e9f
+}
+
+.help-box .box-list li a b {
+	font-weight: normal;
+	color: #dd5454
+}
+
+.help-box .box-more {
+	display: block;
+	padding: 0.4rem;
+	font-size: 0.346667rem;
+	line-height: 0.533333rem;
+	color: #797d80;
+	text-align: center
+}
+.search-box {
+    zoom: 1;
+    overflow: hidden;
+    height: 1.8rem;
+    background-color: #fff;
+    -webkit-border-radius: .4rem;
+    border-radius: .4rem;
+}
+button, input, select, textarea {
+    font-family: inherit;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+.search-box .search-button {
+    float: right;
+    width: 3.333333rem;
+    height: 100%;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: #fa7833 url(https://file.duoying.com:8092/src/mobile/member/base/img/global/search.png) no-repeat 0.4rem center;
+    -webkit-background-size: 1.4rem 1.4rem;
+    background-size: 1.4rem 1.4rem;
+    border: 0;
+    outline: 0;
+}
+.search-box .search-input {
+    zoom: 1;
+    overflow: hidden;
+    height: 100%;
+    padding: 0.133333rem 0.533333rem;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}

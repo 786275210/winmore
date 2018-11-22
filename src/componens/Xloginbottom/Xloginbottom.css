@@ -1,0 +1,13 @@
+.bgDiv p {
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: -210px;
+    top: 10px;
+    width: 100%;
+}
+.bgDiv p a {
+    color: #666666;
+}

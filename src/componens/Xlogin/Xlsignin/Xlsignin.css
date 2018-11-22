@@ -1,0 +1,1932 @@
+.mall-button {
+	display: inline-block;
+	vertical-align: top;
+	width: 4.50667rem;
+	height: .93333rem;
+	padding: 0;
+	font-size: .42667rem;
+	line-height: .96rem;
+	color: #fff;
+	text-align: center;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/button.png?v=kyj%2BI6PsSHsVaDlFlb7MiA%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	border: 0;
+	outline: 0
+}
+
+.mall-button.disabled,
+.mall-button[disabled] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/button-disabled.png?v=mFA1ODvtdB8YEFUdIzcMnA%3D%3D)
+}
+
+.mall-button.small {
+	width: 3.04rem;
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/button-small.png?v=%2BGeL9uK%2Bno9Og%2FHifBBOiw%3D%3D)
+}
+
+.mall-button.small.disabled,
+.mall-button.small[disabled] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/button-small-disabled.png?v=ISxX28y8r%2BdkQWAklssUQQ%3D%3D)
+}
+
+.mall-button.middle {
+	width: 3.57333rem;
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/button-middle.png?v=l8E4MoVLRU7H4SJasKl8Vg%3D%3D)
+}
+
+.mall-button.middle.disabled,
+.mall-button.middle[disabled] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/button-middle-disabled.png?v=%2B%2BOEb4zT4XZt7KxEni1Thw%3D%3D)
+}
+
+.mall-ticket {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 6.93333rem;
+    padding: 0.18667rem;
+    overflow: hidden;
+    text-align: center;
+    background: #fbf1e5;
+	-webkit-border-radius: .18667rem;
+	border-radius: .18667rem;
+	-webkit-box-shadow: 0 .13333rem .26667rem rgba(224, 194, 170, 0.7);
+	box-shadow: 0 .13333rem .26667rem rgba(224, 194, 170, 0.7)
+}
+
+.mall-ticket.ticket-2 {
+	background-color: #fffbf8;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #fef3dc), color-stop(50%, #fffbf8), color-stop(100%, #f1dfae));
+	background-image: -webkit-linear-gradient(left, #fef3dc 0%, #fffbf8 50%, #f1dfae 100%);
+	background-image: linear-gradient(to right, #fef3dc 0%, #fffbf8 50%, #f1dfae 100%);
+	-webkit-box-shadow: inset 0 0 .21333rem rgba(233, 184, 102, 0.54);
+	box-shadow: inset 0 0 .21333rem rgba(233, 184, 102, 0.54)
+}
+
+.mall-ticket.newbee:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 12;
+	width: 1.49333rem;
+	height: 1.49333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/ticket-newbie.png?v=wEcUbT6XT2lQJXXRrt7%2FYA%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-ticket.copper:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 12;
+	width: 1.49333rem;
+	height: 1.49333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/ticket-copper.png?v=9v87cuQHLcK9HWReRjC83A%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-ticket.silver:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 12;
+	width: 1.49333rem;
+	height: 1.49333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/ticket-silver.png?v=SnFIEEVio1lpIXC28wHs%2BA%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-ticket.gold:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 12;
+	width: 1.49333rem;
+	height: 1.49333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/ticket-gold.png?v=dMSNgUxbr6Ah%2Bc3gswWCNw%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-ticket.platina:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 12;
+	width: 1.49333rem;
+	height: 1.49333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/ticket-platina.png?v=8EEKf85KcEjxBwXhLzwQEg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-ticket.diamond:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 12;
+	width: 1.49333rem;
+	height: 1.49333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/ticket-diamond.png?v=vqCjD0uLOy%2BuSDyj0AeTGQ%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-ticket.wheat:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 12;
+	width: 1.49333rem;
+	height: 1.49333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/ticket-wheat.png?v=lFlHtYN5fvbMUOrWaHf7WQ%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-ticket.wheat-high:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 12;
+	width: 1.49333rem;
+	height: 1.49333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/ticket-wheat-high.png?v=Md3nw5IDUGVd8WT7aU05lA%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-ticket .ticket-link {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 12
+}
+.ticket-preview{
+background-image: url(https://file.duoying.com:8092//PublicMobile/images/mall/ticket-2.png);
+}
+.mall-ticket .ticket-preview {
+	position: relative;
+	z-index: 11;
+	margin-top: .08rem;
+	padding-top: 1.33333rem;
+	font-size: .34667rem;
+	line-height: 2.66667rem;
+	color: #c2944f;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: top center;
+	-webkit-background-size: auto 1.33333rem;
+	background-size: auto 1.33333rem
+}
+
+.mall-ticket .ticket-preview .preview-num {
+	position: absolute;
+	top: .34667rem;
+	left: 0;
+	width: 100%;
+	font-size: .34667rem;
+	line-height: .53333rem;
+	color: #6d2407;
+	text-align: center
+}
+
+.mall-ticket .ticket-preview .preview-num big {
+	font-weight: bold;
+	font-size: .58667rem;
+	line-height: .53333rem
+}
+
+.mall-ticket .ticket-text {
+	position: relative;
+	z-index: 11;
+	margin-bottom: -.18667rem;
+	padding: .13333rem 0;
+	font-size: .32rem;
+	line-height: .53333rem;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	border-top: 1px dotted #9ba2ad
+}
+
+.mall-ticket .ticket-text:before {
+	content: "";
+	display: inline-block;
+	vertical-align: top;
+	width: .53333rem;
+	height: .53333rem;
+	margin-top: -.05333rem;
+	margin-right: .08rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/coin.png?v=uJRuwHqdwT9V2QbY%2BZnrpQ%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-ticket .ticket-options {
+	padding: .21333rem 0 .05333rem;
+	border-top: 1px dotted #9ba2ad
+}
+
+.mall-ticket .ticket-btn {
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+	height: 1.64rem;
+	font-size: .32rem;
+	line-height: 1.64rem;
+	color: #6d2407;
+	text-align: center;
+	background-color: #e2ba6b;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #c2953e), color-stop(50%, #e2ba6b), color-stop(100%, #d6a050));
+	background-image: -webkit-linear-gradient(left, #c2953e 0%, #e2ba6b 50%, #d6a050 100%);
+	background-image: linear-gradient(to right, #c2953e 0%, #e2ba6b 50%, #d6a050 100%);
+	-webkit-border-radius: .32rem;
+	border-radius: .32rem
+}
+
+.mall-ticket .ticket-btn.disabled {
+	color: #fff;
+	background-color: #cfcfd0;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #d6d6d5), color-stop(50%, #cfcfd0), color-stop(100%, #7e7e8e));
+	background-image: -webkit-linear-gradient(left, #d6d6d5 0%, #cfcfd0 50%, #7e7e8e 100%);
+	background-image: linear-gradient(to right, #d6d6d5 0%, #cfcfd0 50%, #7e7e8e 100%)
+}
+
+.mall-modal .modal-dialog {
+	width: 8.64rem;
+	height: 6.13333rem;
+	margin-left: -4.32rem;
+	padding: .53333rem .53333rem .66667rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/modal-1.png?v=DDWT0eLFEaZSYy1KeP4dVw%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-modal .modal-dialog.modal-1 {
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/modal-1.png?v=DDWT0eLFEaZSYy1KeP4dVw%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-modal .modal-dialog.modal-2 {
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/modal-2.png?v=SXwzhFX46yF7a%2FOcjBgl%2FA%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-modal .modal-dialog.modal-large-2 {
+	height: 9.52rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/modal-large-2.png?v=mwB%2BuFZkngJsC%2FBrM6ij0g%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-modal .modal-dialog .modal-close {
+	top: .08rem;
+	right: .32rem;
+	width: .66667rem;
+	height: .66667rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/modal-close.png?v=gqZ0eQO44ob2inEQYv4jig%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-modal .modal-dialog .modal-title {
+	margin: .4rem 0;
+	font-weight: bold;
+	font-size: .42667rem;
+	line-height: .64rem;
+	text-align: center;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-modal .modal-dialog .modal-title:before,
+.mall-modal .modal-dialog .modal-title:after {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.33333rem;
+	height: 1px;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/title-sides.png?v=13heo8qNePa7I97FzJy00w%3D%3D);
+	-webkit-background-size: 200% 100%;
+	background-size: 200% 100%
+}
+
+.mall-modal .modal-dialog .modal-title:before {
+	margin-right: .13333rem;
+	background-position: left center
+}
+
+.mall-modal .modal-dialog .modal-title:after {
+	margin-left: .13333rem;
+	background-position: right center
+}
+
+.mall-modal .modal-dialog .modal-content {
+	padding: 0 .26667rem;
+	font-size: .34667rem;
+	line-height: .53333rem;
+	color: #6d2407
+}
+
+.mall-modal .modal-dialog .modal-content p {
+	margin: 0
+}
+
+.mall-modal .modal-dialog .modal-content p+p {
+	margin-top: .13333rem
+}
+
+.mall-modal .modal-dialog .modal-content a,
+.mall-modal .modal-dialog .modal-content b {
+	font-weight: normal;
+	color: #e34f15
+}
+
+.mall-modal .modal-dialog .modal-content .mall-button {
+	margin-top: .4rem
+}
+
+.mall-modal .modal-dialog .modal-table {
+	width: 6.4rem;
+	margin: 0 auto .4rem
+}
+
+.mall-modal .modal-dialog .modal-table caption {
+	padding-bottom: .13333rem;
+	font-size: .37333rem;
+	line-height: .66667rem
+}
+
+.mall-modal .modal-dialog .modal-table td {
+	font-size: .34667rem;
+	line-height: .53333rem;
+	color: #e34f15
+}
+
+.mall-modal .modal-dialog .modal-btn {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 2.13333rem;
+	height: .64rem;
+	padding: 0 .26667rem;
+	font-size: .32rem;
+	line-height: .64rem;
+	color: #fbecc9 !important;
+	text-align: center;
+	-webkit-border-radius: .32rem;
+	border-radius: .32rem;
+	background-color: #cb6b31;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #841b03), color-stop(50%, #cb6b31), color-stop(100%, #6d2407));
+	background-image: -webkit-linear-gradient(left, #841b03 0%, #cb6b31 50%, #6d2407 100%);
+	background-image: linear-gradient(to right, #841b03 0%, #cb6b31 50%, #6d2407 100%)
+}
+
+.mall-modal .modal-dialog .modal-btn.margin {
+	margin: .13333rem 0 .26667rem
+}
+
+.mall-modal.signin .modal-dialog {
+	width: 10rem;
+	height: 10.02667rem;
+	margin-left: -5.01333rem;
+	padding: 3.2rem 1.6rem .8rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/signin-modal.png?v=N08OijdhkuZJvn8NHBdAvg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-modal.signin .modal-dialog .modal-close {
+	top: 2.88rem;
+	right: 1.28rem
+}
+
+.mall-modal.signin .modal-dialog .modal-container {
+	position: relative;
+	height: 100%;
+	padding-top: .72rem;
+	font-size: .37333rem;
+	line-height: .61333rem;
+	color: #6d2407;
+	text-align: center
+}
+
+.mall-modal.signin .modal-dialog .modal-container p {
+	margin: 0
+}
+
+.mall-modal.signin .modal-dialog .signin-award {
+	position: absolute;
+	left: 50%;
+	bottom: 1.73333rem;
+	width: 1.89333rem;
+	height: 1.93333rem;
+	margin-left: -.94667rem;
+	white-space: nowrap;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/signin-award.png?v=dbeA%2FRCkyH4Xqevowe8RWQ%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-modal.signin .modal-dialog .signin-award .award-top {
+	height: 100%;
+	padding-top: .34667rem;
+	font-weight: bold;
+	font-size: .58667rem;
+	line-height: .8rem;
+	color: #b37429;
+	text-shadow: 1px 1px rgba(255, 255, 255, 0.2)
+}
+
+.mall-modal.signin .modal-dialog .signin-award .award-bottom {
+	padding: .13333rem 0;
+	font-size: .37333rem;
+	line-height: .66667rem;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-modal.operate .modal-dialog {
+	width: 8rem;
+	height: auto;
+	margin-left: -4rem;
+	padding: .53333rem;
+	background: #fff;
+	-webkit-border-radius: 0;
+	border-radius: 0
+}
+
+.mall-modal.operate .modal-dialog .modal-close {
+	top: -.26667rem;
+	right: -.26667rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/modal-close-2.png?v=yT0ouAK9AeLPXUEPjBHkAg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-modal.operate .modal-dialog .modal-details {
+	display: table;
+	width: 100%;
+	margin-bottom: .4rem
+}
+
+.mall-modal.operate .modal-dialog .modal-details .modal-image {
+	display: table-cell;
+	vertical-align: middle;
+	width: 1px;
+	padding-right: .4rem
+}
+
+.mall-modal.operate .modal-dialog .modal-details .modal-image .mall-ticket {
+	padding-top: .53333rem;
+	padding-bottom: .53333rem
+}
+
+.mall-modal.operate .modal-dialog .modal-details .modal-text {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: .32rem;
+	line-height: .48rem
+}
+
+.mall-modal.operate .modal-dialog .modal-details .modal-text h4 {
+	margin-bottom: .13333rem;
+	font-weight: bold;
+	font-size: .42667rem;
+	line-height: .66667rem;
+	background-color: #d9a656;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #d9a656), color-stop(100%, #9a582a));
+	background-image: -webkit-linear-gradient(left, #d9a656 0%, #9a582a 100%);
+	background-image: linear-gradient(to right, #d9a656 0%, #9a582a 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-modal.operate .modal-dialog .modal-details .modal-text p {
+	margin: .13333rem 0 0;
+	background-color: #d9a656;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #d9a656), color-stop(100%, #9a582a));
+	background-image: -webkit-linear-gradient(left, #d9a656 0%, #9a582a 100%);
+	background-image: linear-gradient(to right, #d9a656 0%, #9a582a 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-modal.operate .modal-dialog .modal-list {
+	margin: 0;
+	font-size: .32rem;
+	line-height: .48rem;
+	color: #797878
+}
+
+.mall-modal.operate .modal-dialog .modal-list li {
+	margin: .10667rem 0
+}
+
+.mall-modal.operate .modal-dialog .modal-list li:before {
+	content: "";
+	display: inline-block;
+	vertical-align: top;
+	width: .16rem;
+	height: .16rem;
+	margin-top: .16rem;
+	margin-right: .16rem;
+	background: #ebcf9b;
+	-webkit-border-radius: 50%;
+	border-radius: 50%
+}
+
+.mall-modal.operate .modal-dialog .modal-btn {
+	min-width: 3.06667rem;
+	height: .74667rem;
+	font-size: .37333rem;
+	line-height: .74667rem;
+	color: #6d2407 !important;
+	-webkit-border-radius: .37333rem;
+	border-radius: .37333rem;
+	background-color: #e5bc6e;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #ac7a1f), color-stop(50%, #e5bc6e), color-stop(100%, #bd7724));
+	background-image: -webkit-linear-gradient(left, #ac7a1f 0%, #e5bc6e 50%, #bd7724 100%);
+	background-image: linear-gradient(to right, #ac7a1f 0%, #e5bc6e 50%, #bd7724 100%)
+}
+
+.mall-modal.operate .modal-dialog .modal-btn.disabled,
+.mall-modal.operate .modal-dialog .modal-btn[disabled] {
+	color: #fff !important;
+	background-color: #cfcfd0;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #d6d6d5), color-stop(50%, #cfcfd0), color-stop(100%, #7e7e8e));
+	background-image: -webkit-linear-gradient(left, #d6d6d5 0%, #cfcfd0 50%, #7e7e8e 100%);
+	background-image: linear-gradient(to right, #d6d6d5 0%, #cfcfd0 50%, #7e7e8e 100%)
+}
+
+.mall-container {
+	min-height: 20rem;
+	padding-bottom: 1px;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/bg.png?v=k%2FCmrRCsJoJdcDCt5GMGhw%3D%3D) no-repeat 0 7.73333rem;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-container.bg-black {
+	min-height: 0;
+	background: #160f0d
+}
+
+.mall-banner.banner-1 {
+	height: 20.66667rem;
+	margin-bottom: 2.53333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/banner-1.png?v=itFpOIMPBEt42sDGcsXqNg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-banner.banner-2 {
+	height: 7.73333rem;
+	margin-bottom: -1.33333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/banner-2.png?v=O0b2Ddt74cWEXMwFHUEw9g%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-box {
+	position: relative;
+	width: 24.8rem;
+	height: 2.77333rem;
+	margin: 0 auto;
+	padding: .05333rem .26667rem .53333rem;
+	line-height: 2.18667rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/box-1.png?v=qxEF9OXFYCnNMpRSgrNgEg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-box.box-1 {
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/box-1.png?v=qxEF9OXFYCnNMpRSgrNgEg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-box.box-2 {
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/box-2.png?v=M4E%2FNreXkUsZUqSgflhtSA%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-box.box-3 {
+	height: auto;
+	margin-bottom: .53333rem;
+	padding: .4rem;
+	font-size: 1.34667rem;
+	line-height: 2.53333rem;
+	color: #6d2407;
+	background-color: #e2ba6b;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #c0923c), color-stop(50%, #e2ba6b), color-stop(100%, #d59f4f));
+	background-image: -webkit-linear-gradient(left, #c0923c 0%, #e2ba6b 50%, #d59f4f 100%);
+	background-image: linear-gradient(to right, #c0923c 0%, #e2ba6b 50%, #d59f4f 100%);
+	-webkit-border-radius: 1.21333rem;
+	border-radius: 1.21333rem;
+	-webkit-box-shadow: 0 .13333rem .18667rem rgba(0, 0, 0, 0.64);
+	box-shadow: 0 .13333rem .18667rem rgba(0, 0, 0, 0.64)
+}
+
+.mall-box.box-3 p {
+	margin: .13333rem 32px;
+}
+
+.mall-box.box-3 big {
+	font-weight: bold;
+	font-size: .48rem;
+	line-height: .53333rem
+}
+
+.mall-box.box-3 .box-btn {
+	margin: -0.86667rem 92px;
+}
+
+.mall-box.box-4 {
+	width: 100%;
+	height: auto;
+	padding: .4rem;
+	font-size: .4rem;
+	line-height: .66667rem;
+	background-color: #f1d7a5;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #d8ae72), color-stop(50%, #f1d7a5), color-stop(100%, #bc5e2a));
+	background-image: -webkit-linear-gradient(left, #d8ae72 0%, #f1d7a5 50%, #bc5e2a 100%);
+	background-image: linear-gradient(to right, #d8ae72 0%, #f1d7a5 50%, #bc5e2a 100%)
+}
+
+.mall-box.box-4 span,
+.mall-box.box-4 big {
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #ce861b));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #ce861b 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #ce861b 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-box.box-4 big {
+	font-weight: bold;
+	font-size: .53333rem;
+	line-height: .8rem
+}
+
+.mall-box.sign-in {
+	padding-left: 2.66667rem
+}
+
+.mall-box.sign-in:before {
+	content: "";
+	position: absolute;
+    top: 50%;
+    left: 0.4rem;
+    display: inline-block;
+    vertical-align: top;
+    width: 3.86667rem;
+    height: 5.21333rem;
+    margin-top: -3.12rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/sign-in.png?v=5ikYUKYQTAjsET76Py562w%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-box .box-inner {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	font-size: .34667rem;
+	line-height: .45333rem;
+	color: #6d2407;
+	text-align: center
+}
+
+.mall-box .box-inner p {
+	margin: 0 0 .26667rem;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-box .box-btn {
+	display: inline-block;
+    vertical-align: top;
+    min-width: 3.2rem;
+    height: 1.64rem;
+    padding: 0 .26667rem;
+    font-size: 1.34667rem;
+    line-height: 1.64rem;
+    color: #fbecc9;
+    text-align: center;
+    border-radius: 1.32rem;
+	background-color: #cb6b31;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #841b03), color-stop(50%, #cb6b31), color-stop(100%, #6d2407));
+	background-image: -webkit-linear-gradient(left, #841b03 0%, #cb6b31 50%, #6d2407 100%);
+	background-image: linear-gradient(to right, #841b03 0%, #cb6b31 50%, #6d2407 100%)
+}
+
+.mall-box .box-btn.btn-1 {
+	color: #fbecc9;
+	background-color: #cb6b31;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #841b03), color-stop(50%, #cb6b31), color-stop(100%, #6d2407));
+	background-image: -webkit-linear-gradient(left, #841b03 0%, #cb6b31 50%, #6d2407 100%);
+	background-image: linear-gradient(to right, #841b03 0%, #cb6b31 50%, #6d2407 100%)
+}
+
+.mall-box .box-btn.btn-2 {
+	color: #6d2407;
+	background-color: #f1d7a5;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #d8ae72), color-stop(50%, #f1d7a5), color-stop(100%, #bc5e2a));
+	background-image: -webkit-linear-gradient(left, #d8ae72 0%, #f1d7a5 50%, #bc5e2a 100%);
+	background-image: linear-gradient(to right, #d8ae72 0%, #f1d7a5 50%, #bc5e2a 100%)
+}
+
+.mall-box .box-btn.btn-3 {
+	min-width: 0;
+	padding: 0 .4rem;
+	color: #d99b43;
+	background-color: #fffbf8;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #fef3dc), color-stop(50%, #fffbf8), color-stop(100%, #f1dfae));
+	background-image: -webkit-linear-gradient(left, #fef3dc 0%, #fffbf8 50%, #f1dfae 100%);
+	background-image: linear-gradient(to right, #fef3dc 0%, #fffbf8 50%, #f1dfae 100%);
+	-webkit-box-shadow: inset 0 0 .21333rem rgba(233, 184, 102, 0.54);
+	box-shadow: inset 0 0 .21333rem rgba(233, 184, 102, 0.54)
+}
+
+.mall-box .arrow {
+	display: inline-block;
+	vertical-align: middle;
+	width: .26667rem;
+	height: .26667rem;
+	margin-top: -.05333rem;
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/arrows.png?v=ZHcwAglPUHU28Y7vYbEiQQ%3D%3D);
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%
+}
+
+.mall-box .arrow.arrow-1 {
+	background-position: 0 0
+}
+
+.mall-box .arrow.arrow-2 {
+	background-position: -.26667rem 0
+}
+
+.mall-module {
+	margin: .8rem 0;
+	padding: 0 .33333rem
+}
+
+.mall-module[data-welfare] {
+	display: none
+}
+
+.mall-module[data-welfare].active {
+	display: block
+}
+
+.mall-module .module-title {
+	position: relative;
+	margin: 0 0 .4rem;
+	font-weight: bold;
+	font-size: 1.42667rem;
+	line-height: 2.64rem;
+	text-align: center;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-module .module-title:before,
+.mall-module .module-title:after {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 3.33333rem;
+	height: 1px;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/title-sides.png?v=13heo8qNePa7I97FzJy00w%3D%3D);
+	-webkit-background-size: 200% 100%;
+	background-size: 200% 100%
+}
+
+.mall-module .module-title:before {
+	margin-right: .26667rem;
+	background-position: left center
+}
+
+.mall-module .module-title:after {
+	margin-left: .26667rem;
+	background-position: right center
+}
+
+.mall-module .module-title .crown {
+	position: absolute;
+	top: -.66667rem;
+	left: 50%;
+	display: inline-block;
+	vertical-align: top;
+	width: .66667rem;
+	height: .66667rem;
+	margin-left: -.34667rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/crown.png?v=0mXcWpd7Wntvr%2BgKbnnQUg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-module .module-title.title-2 {
+	color: #dc9f3f;
+	background: transparent;
+	-webkit-text-fill-color: #dc9f3f
+}
+
+.mall-module .module-title.title-2:before,
+.mall-module .module-title.title-2:after {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/title-sides-2.png?v=O%2FeU4Fl8flAzTSqb4S03Kg%3D%3D)
+}
+
+.mall-module .module-container:before,
+.mall-module .module-container:after {
+	content: "";
+	display: table
+}
+
+.mall-module .module-container:after {
+	clear: both
+}
+
+.mall-module .module-container .mall-ticket {
+	float: left;
+	margin-left: 1.26667rem;
+	margin-bottom: 1.26667rem
+}
+
+.mall-module .module-container .mall-ticket:nth-of-type(3n+1) {
+	margin-left: 10px
+}
+
+.mall-module .module-box {
+	width: 8.26667rem;
+	margin: 0 auto;
+	padding: .4rem;
+	text-align: center;
+	background: #fbf1e5;
+	-webkit-border-radius: .24rem;
+	border-radius: .24rem;
+	-webkit-box-shadow: 0 .13333rem .26667rem rgba(224, 194, 170, 0.7);
+	box-shadow: 0 .13333rem .26667rem rgba(224, 194, 170, 0.7)
+}
+
+.mall-module .module-box .module-btn {
+	margin: .13333rem 0
+}
+
+.mall-module .module-board {
+	margin: .13333rem 0;
+	background: rgba(237, 214, 163, 0.15);
+	border: 1px solid #e5bc6d
+}
+
+.mall-module .module-board .board-top {
+	padding: .26667rem 0
+}
+
+.mall-module .module-board .board-group {
+	display: table;
+	width: 100%;
+	margin: .26667rem 0
+}
+
+.mall-module .module-board .board-group .board-item {
+	display: table-cell;
+	vertical-align: top;
+	width: 33.33333%;
+	font-size: .32rem;
+	line-height: 2.42667rem;
+	color: #e5bc6e;
+	text-align: center
+}
+
+.mall-module .module-board .board-group .board-item p {
+	margin: .13333rem 0
+}
+
+.mall-module .module-board .board-bottom {
+	padding: .53333rem;
+	text-align: center;
+	background: rgba(237, 214, 163, 0.15);
+	border-top: 1px solid #e5bc6d
+}
+
+.mall-module .module-board .board-btn {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 3.46667rem;
+    height: 1.90667rem;
+    padding: .13333rem;
+    font-size: .37333rem;
+    line-height: 1.64rem;
+	text-align: center;
+	-webkit-border-radius: .45333rem;
+	border-radius: .45333rem
+}
+
+.mall-module .module-board .board-btn.btn-1 {
+	color: #d99b43;
+	background-color: #fffbf8;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #fef3dc), color-stop(50%, #fffbf8), color-stop(100%, #f1dfae));
+	background-image: -webkit-linear-gradient(left, #fef3dc 0%, #fffbf8 50%, #f1dfae 100%);
+	background-image: linear-gradient(to right, #fef3dc 0%, #fffbf8 50%, #f1dfae 100%);
+	-webkit-box-shadow: inset 0 0 .21333rem rgba(233, 184, 102, 0.54), 0 1px .18667rem rgba(67, 49, 18, 0.28);
+	box-shadow: inset 0 0 .21333rem rgba(233, 184, 102, 0.54), 0 1px .18667rem rgba(67, 49, 18, 0.28)
+}
+
+.mall-module .module-board .board-btn.btn-2 {
+	color: #fffbf8;
+	background-color: #e5bc6e;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7d5918), color-stop(50%, #e5bc6e), color-stop(100%, #bd7724));
+	background-image: -webkit-linear-gradient(left, #7d5918 0%, #e5bc6e 50%, #bd7724 100%);
+	background-image: linear-gradient(to right, #7d5918 0%, #e5bc6e 50%, #bd7724 100%);
+	-webkit-box-shadow: inset 0 .08rem .08rem rgba(255, 250, 240, 0.26), 0 1px .13333rem rgba(64, 35, 6, 0.22);
+	box-shadow: inset 0 .08rem .08rem rgba(255, 250, 240, 0.26), 0 1px .13333rem rgba(64, 35, 6, 0.22)
+}
+
+.mall-module .module-board .board-btn+.board-btn {
+	margin-left: .66667rem
+}
+
+.mall-module .module-board .welfare {
+	display: inline-block;
+	vertical-align: top;
+	width: 2.52rem;
+	height: 2.65333rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/welfares.png?v=a5m9TZraf3IyuyyJgS6rqg%3D%3D);
+	-webkit-background-size: auto 200%;
+	background-size: auto 202%
+}
+
+.mall-module .module-board .welfare.welfare-1 {
+	background-position: 0 100%
+}
+
+.mall-module .module-board .welfare.welfare-1.active {
+	background-position: 0 0
+}
+
+.mall-module .module-board .welfare.welfare-2 {
+	background-position: -2.52rem 100%
+}
+
+.mall-module .module-board .welfare.welfare-2.active {
+	background-position: -1.52rem 0
+}
+
+.mall-module .module-board .welfare.welfare-3 {
+	background-position: -4.9rem 100%
+}
+
+.mall-module .module-board .welfare.welfare-3.active {
+	background-position: -3.04rem 0
+}
+
+.mall-module .module-board .welfare.welfare-4 {
+	background-position: 7.44rem 100%
+}
+
+.mall-module .module-board .welfare.welfare-4.active {
+	background-position: -4.56rem 0
+}
+
+.mall-module .module-board .welfare.welfare-5 {
+	background-position: 4.92rem 100%
+}
+
+.mall-module .module-board .welfare.welfare-5.active {
+	background-position: -6.08rem 0
+}
+
+.mall-module .module-board .welfare.welfare-6 {
+	background-position: 2.4rem 100%
+}
+
+.mall-module .module-board .welfare.welfare-6.active {
+	background-position: -7.6rem 0
+}
+
+.mall-module .module-list {
+	width: 5.33333rem;
+	margin: .26667rem auto;
+	font-size: .34667rem;
+	line-height: .53333rem;
+	text-align: left;
+	white-space: nowrap;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-module .module-list li {
+	margin: .26667rem 0
+}
+
+.mall-module .module-list li:before {
+	content: "";
+	display: inline-block;
+	vertical-align: top;
+	width: .16rem;
+	height: .16rem;
+	margin-top: .16rem;
+	margin-right: .16rem;
+	background: #dba573;
+	-webkit-border-radius: 50%;
+	border-radius: 50%
+}
+
+.mall-module .module-text {
+	margin: .26667rem 0 .53333rem;
+	font-size: .34667rem;
+	line-height: 1.53333rem;
+	color: #e5bc6e;
+	text-align: center
+}
+
+.mall-module .module-text p {
+	margin: .13333rem 0
+}
+
+.mall-module .module-text a {
+	color: #e5bc6e;
+	text-decoration: underline
+}
+
+.mall-module .module-rule {
+	margin: .26667rem 0;
+	color: #e5bc6e
+}
+
+.bg-black .mall-module .module-rule .rule-title {
+    margin-bottom: 0.26667rem;
+    font-weight: normal;
+    font-size: .37333rem;
+    line-height: 3.66667rem;
+    color: #e5bc6e;
+}
+
+.mall-module .module-rule .rule-list {
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	font-size: .32rem;
+	line-height: 2.48rem;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear
+}
+
+.mall-module .module-rule .rule-list li {
+	position: relative;
+	margin-bottom: .26667rem;
+	padding-left: .4rem
+}
+
+.mall-module .module-rule .rule-list li:before {
+	content: "";
+	position: absolute;
+	top: 1.16rem;
+	left: 0;
+	display: inline-block;
+	vertical-align: top;
+	width: .36rem;
+	height: .36rem;
+	background: #e5bc6e;
+	-webkit-border-radius: 50%;
+	border-radius: 50%
+}
+
+.mall-module .module-rule .rule-list a {
+	color: #f44336
+}
+
+.mall-module .module-rule.hide .rule-list {
+	height: 7.45333rem
+}
+
+.mall-module .module-rule.hide .rule-list:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 100%;
+	height: 8.45333rem;
+	background-color: rgba(22, 15, 13, 0);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(22, 15, 13, 0)), color-stop(100%, #160f0d));
+	background-image: -webkit-linear-gradient(top, rgba(22, 15, 13, 0) 0%, #160f0d 100%);
+	background-image: linear-gradient(to bottom, rgba(22, 15, 13, 0) 0%, #160f0d 100%)
+}
+
+.mall-module .module-rule .pull-down {
+	display: block;
+	margin: 0 auto;
+	width: 1.8rem;
+	height: 1.8rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/pull-down.png?v=pZxwtjnhs2vnOW5Jo5hYLg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	-webkit-transform: rotate3d(0, 0, 1, 180deg);
+	transform: rotate3d(0, 0, 1, 180deg)
+}
+
+.mall-module .module-rule.hide .pull-down {
+	-webkit-transform: none;
+	transform: none
+}
+
+.mall-module .module-chart {
+	position: relative;
+	width: 21.85333rem;
+	margin: .4rem auto .13333rem;
+	padding: 13.26667rem 0.16rem 7.13333rem 0.10667rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/chart.png?v=hHEDV5liH10FsDp9YFyg0g%3D%3D) no-repeat top center;
+	-webkit-background-size: 100%;
+	background-size: 100%
+}
+
+#rankChart {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 8.85333rem;
+	height: 20.49163rem;
+	pointer-events: none
+}
+
+.mall-module .module-chart .chart-list {
+	margin-top: -.32rem;
+	background: rgba(237, 214, 163, 0.2);
+	border: 1px solid #e5bc6d
+}
+
+.mall-module .module-chart .chart-list:before,
+.mall-module .module-chart .chart-list:after {
+	content: "";
+	display: table
+}
+
+.mall-module .module-chart .chart-list:after {
+	clear: both
+}
+
+.mall-module .module-chart .chart-list li {
+	float: left;
+    width: 14.285%;
+    padding: 0.16rem 0;
+    font-size: 1.32rem;
+    line-height: 1.42667rem;
+	color: #c2944f;
+	text-align: center
+}
+
+.mall-module .module-chart .chart-list li+li {
+	border-left: 1px solid #e5bc6d
+}
+
+.mall-module .module-chart .chart-list li.active {
+	color: #6d2407;
+	background: #e5bc6e
+}
+
+.mall-module .module-chart .chart-box {
+	position: absolute;
+	left: 10px;
+	bottom: 30px;
+	min-width: 4.66667rem;
+	padding: .45333rem .34667rem .34667rem;
+	font-size: .32rem;
+	line-height: 1.53333rem;
+	color: #6d2407;
+	text-align: left;
+	white-space: nowrap;
+	background: #e5bc6e;
+	-webkit-border-radius: .18667rem;
+	border-radius: .18667rem
+}
+
+.mall-module .module-chart .chart-box:before {
+	content: "";
+	position: absolute;
+	top: -.42667rem;
+	left: .53333rem;
+	border-top: .21333rem solid transparent;
+	border-right: .21333rem solid transparent;
+	border-bottom: .21333rem solid #e5bc6e;
+	border-left: .21333rem solid transparent
+}
+
+.mall-module .module-chart .chart-box p {
+	margin: 0
+}
+
+.mall-module .module-chart .chart-box b {
+	font-weight: normal;
+	color: #f9f0dd
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(2) .chart-box:before {
+	left: 1.73333rem
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(3) .chart-box:before {
+	left: 2.93333rem
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(4) .chart-box {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(4) .chart-box:before {
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(5) .chart-box {
+	left: auto;
+	right: 0
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(5) .chart-box:before {
+	left: auto;
+	right: 3.01333rem
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(6) .chart-box {
+	left: auto;
+	right: 0
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(6) .chart-box:before {
+	left: auto;
+	right: 1.81333rem
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(7) .chart-box {
+	left: auto;
+	right: 0
+}
+
+.mall-module .module-chart .chart-list>li:nth-of-type(7) .chart-box:before {
+	left: auto;
+	right: .53333rem
+}
+
+.mall-module .module-btn {
+	display: inline-block;
+	vertical-align: top;
+	min-width: 3.2rem;
+	height: .64rem;
+	padding: 0 .26667rem;
+	font-size: .34667rem;
+	line-height: .64rem;
+	color: #6d2407;
+	text-align: center;
+	-webkit-border-radius: .32rem;
+	border-radius: .32rem;
+	background-color: #f1d7a5;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #d8ae72), color-stop(50%, #f1d7a5), color-stop(100%, #ce8653));
+	background-image: -webkit-linear-gradient(left, #d8ae72 0%, #f1d7a5 50%, #ce8653 100%);
+	background-image: linear-gradient(to right, #d8ae72 0%, #f1d7a5 50%, #ce8653 100%)
+}
+
+.mall-module .module-btn .arrow {
+	display: inline-block;
+	vertical-align: middle;
+	width: .26667rem;
+	height: .26667rem;
+	margin-top: -.05333rem;
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/arrows.png?v=ZHcwAglPUHU28Y7vYbEiQQ%3D%3D);
+	background-position: -.53333rem 0;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%
+}
+
+.mall-lottery {
+	padding: .4rem 0
+}
+
+.mall-lottery .lottery-box {
+	position: relative;
+	width: 9.04rem;
+	height: 9.2rem;
+	margin: 0 auto;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/lottery-box.png?v=lon3QSlSZWGwVA5Pb5smFw%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-lottery .lottery-list {
+	position: relative;
+	height: 6.93333rem;
+	margin: 0;
+	padding: .48rem .42667rem;
+	padding-top: .50667rem;
+	padding-left: .50667rem
+}
+
+.mall-lottery .lottery-list:before,
+.mall-lottery .lottery-list:after {
+	content: "";
+	display: table
+}
+
+.mall-lottery .lottery-list:after {
+	clear: both
+}
+
+.mall-lottery .lottery-list li {
+	float: left;
+	width: 2.58667rem;
+	height: 1.86667rem;
+	margin: .05333rem;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-lottery .lottery-list li[data-index="1"] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/1.png?v=yBewpJcP21VCdnVNKWs4kg%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="1"].active {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/1-active.png?v=tpeqx583vSFX2FZ6m7cA8Q%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="2"] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/2.png?v=5xRMVbSwlSDR4MXnfYYVoQ%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="2"].active {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/2-active.png?v=cCmmFsuOzjQL40lvsLoxRQ%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="3"] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/3.png?v=qK%2BfPBJ6NfH5%2FkIbKMmIJA%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="3"].active {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/3-active.png?v=kBIh5NzPZGiD%2BWQlVhjFIg%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="4"] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/4.png?v=BCyw8CE7k3tQCUQVsWBZdQ%3D%3D);
+	margin-left: 5.44rem
+}
+
+.mall-lottery .lottery-list li[data-index="4"].active {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/4-active.png?v=PY8oYkYFY6e7A5ukxcPthg%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="5"] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/5.png?v=kb8qTPCtn7%2BslW4UN8ejaw%3D%3D);
+	margin-left: 5.44rem
+}
+
+.mall-lottery .lottery-list li[data-index="5"].active {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/5-active.png?v=sEcn5TLJwdxv7hCD6WmZdQ%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="6"] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/6.png?v=y7N1t07RMtfTWPj0y2MqAw%3D%3D);
+	position: absolute;
+	top: 4.45333rem;
+	left: 3.2rem
+}
+
+.mall-lottery .lottery-list li[data-index="6"].active {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/6-active.png?v=%2BG0uGJM%2BRNMTojvW3KHeBg%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="7"] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/7.png?v=vHBMIpqjgVa2XtMeaTe65A%3D%3D);
+	position: absolute;
+	top: 4.45333rem;
+	left: .50667rem
+}
+
+.mall-lottery .lottery-list li[data-index="7"].active {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/7-active.png?v=MfaUW9sGOkN%2FEY6o65PWkQ%3D%3D)
+}
+
+.mall-lottery .lottery-list li[data-index="8"] {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/8.png?v=yTIWigxucgYj6%2Bn%2B73GL9g%3D%3D);
+	position: absolute;
+	top: 2.48rem;
+	left: .50667rem
+}
+
+.mall-lottery .lottery-list li[data-index="8"].active {
+	background-image: url(https://vip.duoying.com/PublicMobile/images/mall/awards/8-active.png?v=f9wJtj2w2bj7e4ZfZIG6fA%3D%3D)
+}
+
+.mall-lottery .lottery-options {
+	height: 1.33333rem;
+	margin-top: .96rem;
+	text-align: center
+}
+
+.mall-lottery .lottery-options .mall-button {
+	margin: .13333rem .34667rem
+}
+
+.mall-lottery .lottery-scroll {
+	width: 8.72rem;
+	height: 1.6rem;
+	margin: .4rem auto 0;
+	padding: .29333rem 1.6rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/scroll-bg.png?v=v3JE%2BPeMd%2BkY2pEdU60BpQ%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-lottery .lottery-scroll .scroll-container {
+	width: 6.93333rem;
+	height: .8rem;
+	overflow-y: hidden
+}
+
+.mall-lottery .lottery-scroll .scroll-list {
+	position: relative;
+	width: 5.54667rem
+}
+
+.mall-lottery .lottery-scroll .scroll-list li {
+	height: .8rem;
+	padding: 0 .26667rem;
+	font-size: .34667rem;
+	line-height: .8rem;
+	color: #7c2f11;
+	text-align: center;
+	white-space: nowrap
+}
+
+.mall-project {
+	padding: 0 .4rem;
+	background: #fcefe3 url(https://vip.duoying.com/PublicMobile/images/mall/project-bg.png?v=RzA3qlcoNl%2BjGobybB7%2BlA%3D%3D) no-repeat top center;
+	-webkit-background-size: 100%;
+	background-size: 100%
+}
+
+.mall-project .project-top {
+	padding: .4rem 0
+}
+
+.mall-project .project-top~.project-middle:before,
+.mall-project .project-top~.project-bottom:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/border.png?v=tQj2tz8ICBkx4kmlhzsiEQ%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-project .project-middle {
+	position: relative;
+	padding: .26667rem 0
+}
+
+.mall-project .project-middle~.project-bottom:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 1px;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/border.png?v=tQj2tz8ICBkx4kmlhzsiEQ%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-project .project-bottom {
+	position: relative;
+	padding: .4rem 0
+}
+
+.mall-project .project-details {
+	display: table;
+	width: 100%
+}
+
+.mall-project .project-details .project-image {
+	display: table-cell;
+	vertical-align: middle;
+	width: 1px;
+	padding-right: .26667rem
+}
+
+.mall-project .project-details .project-text {
+	display: table-cell;
+	vertical-align: middle
+}
+
+.mall-project .project-details .project-text h3 {
+	margin: 0 0 .13333rem;
+	font-weight: bold;
+	font-size: .42667rem;
+	line-height: .61333rem;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-project .project-details .project-text h3 big {
+	margin-right: .05333rem;
+	font-size: .53333rem;
+	line-height: .66667rem;
+	color: #e34f15;
+	background: transparent;
+	-webkit-text-fill-color: #e34f15
+}
+
+.mall-project .project-details .project-text p {
+	min-height: 1.06667rem;
+	margin: 0;
+	font-size: .34667rem;
+	line-height: .53333rem;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-project .project-options {
+	zoom: 1;
+	overflow: hidden;
+	margin: 0;
+	font-size: .34667rem;
+	line-height: .53333rem;
+	color: #591b03
+}
+
+.mall-project .project-options dt {
+	float: left;
+	padding: .08rem 0
+}
+
+.mall-project .project-options dt:before {
+	content: "";
+	display: inline-block;
+	vertical-align: top;
+	width: .16rem;
+	height: .16rem;
+	margin-top: .18667rem;
+	margin-right: .18667rem;
+	background: #dba573;
+	-webkit-border-radius: 50%;
+	border-radius: 50%
+}
+
+.mall-project .project-options dd {
+	zoom: 1;
+	overflow: hidden;
+	padding: .08rem 0;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-project .project-options dd.wheat {
+	color: #e34f15;
+	background: transparent;
+	-webkit-text-fill-color: #e34f15
+}
+
+.mall-project .project-form .form-widget .widget-top h4 {
+	display: inline-block;
+	vertical-align: top;
+	font-weight: bold;
+	font-size: .42667rem;
+	line-height: .53333rem;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-project .project-form .form-widget .widget-top h4 big {
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: .53333rem;
+	line-height: .53333rem;
+	color: #e34f15;
+	background: transparent;
+	-webkit-text-fill-color: #e34f15
+}
+
+.mall-project .project-form .form-widget .widget-top p {
+	margin: 0;
+	font-size: .32rem;
+	line-height: .53333rem;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-project .project-form .form-widget .widget-top p b {
+	font-weight: normal;
+	color: #e34f15;
+	background: transparent;
+	-webkit-text-fill-color: #e34f15
+}
+
+.mall-project .project-form .form-widget .widget-bottom {
+	margin-top: .26667rem
+}
+
+.mall-project .project-form .form-widget .widget-bottom label {
+	font-size: .32rem;
+	line-height: .72rem;
+	background-color: #7c2f11;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #7c2f11), color-stop(100%, #e7a543));
+	background-image: -webkit-linear-gradient(left, #7c2f11 0%, #e7a543 100%);
+	background-image: linear-gradient(to right, #7c2f11 0%, #e7a543 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent
+}
+
+.mall-project .project-form .form-widget .widget-control {
+	position: relative;
+	height: .72rem;
+	padding: 1px .72rem;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/textbox.png?v=qrSMRznPHGbvlMtaPGSLBg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-project .project-form .form-widget .widget-control .widget-input {
+	width: 1.86667rem;
+	height: 100%;
+	font-size: .32rem;
+	line-height: .72rem;
+	color: #72170b;
+	text-align: center;
+	background: transparent;
+	border: 0;
+	outline: 0
+}
+
+.mall-project .project-form .form-widget .widget-control .widget-add,
+.mall-project .project-form .form-widget .widget-control .widget-subtract {
+	position: absolute;
+	top: 0;
+	display: block;
+	width: .72rem;
+	height: .72rem;
+	font-size: .53333rem;
+	line-height: .72rem;
+	color: #8f422b;
+	text-align: center;
+	background-color: #d8ae72;
+	background-image: -webkit-gradient(linear, right top, left bottom, color-stop(0%, #d8ae72), color-stop(100%, #f1d7a5));
+	background-image: -webkit-linear-gradient(45deg, #d8ae72 0%, #f1d7a5 100%);
+	background-image: linear-gradient(45deg, #d8ae72 0%, #f1d7a5 100%)
+}
+
+.mall-project .project-form .form-widget .widget-control .widget-add {
+	right: 0
+}
+
+.mall-project .project-form .form-widget .widget-control .widget-subtract {
+	left: 0
+}
+
+.mall-project .project-form .form-group {
+	display: table;
+	width: 100%;
+	margin: .4rem 0
+}
+
+.mall-project .project-form .form-group .form-label {
+	display: table-cell;
+	vertical-align: middle;
+	width: 27%;
+	font-size: .34667rem;
+	line-height: .53333rem;
+	color: #591b03;
+	white-space: nowrap
+}
+
+.mall-project .project-form .form-group .form-control {
+	display: table-cell;
+	vertical-align: middle;
+	background: url(https://vip.duoying.com/PublicMobile/images/mall/textbox.png?v=qrSMRznPHGbvlMtaPGSLBg%3D%3D);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%
+}
+
+.mall-project .project-form .form-group .form-control input {
+	width: 100%;
+	height: .8rem;
+	padding: .13333rem .26667rem;
+	font-size: .32rem;
+	line-height: .53333rem;
+	color: #c2944f;
+	text-align: center;
+	background: transparent;
+	border: 0;
+	outline: 0
+}
+
+.mall-project .project-form .form-group .form-control input::-webkit-input-placeholder {
+	color: #c2944f
+}
+
+.mall-project .project-form .form-group .form-control input:-moz-placeholder {
+	color: #c2944f
+}
+
+.mall-project .project-form .form-group .form-control input::-moz-placeholder {
+	color: #c2944f
+}
+
+.mall-project .project-form .form-group .form-control input:-ms-input-placeholder {
+	color: #c2944f
+}
+
+.mall-project .project-form .form-checktip {
+	margin-top: -.13333rem;
+	padding: 0 .26667rem;
+	font-size: .34667rem;
+	line-height: .53333rem;
+	color: #f93d3d;
+	text-align: right
+}
+
+.mall-project .project-form .btn-group {
+	margin: .53333rem 0;
+	padding: 0
+}
+
+.mall-catalog {
+	padding: .26667rem .4rem
+}
+
+.mall-catalog .catalog-list {
+	margin: 0;
+	font-size: .4rem;
+	line-height: .66667rem;
+	color: #5c5a5d
+}
+
+.mall-catalog .catalog-list li {
+	padding: .13333rem 0;
+	border-bottom: 1px solid #dbdbdb
+}
+
+.mall-catalog .catalog-list p {
+	margin: 0
+}
+
+.mall-catalog .catalog-list b {
+	font-weight: normal;
+	color: #6d2407
+}
+
+.mall-catalog .catalog-list small {
+	font-size: .37333rem;
+	line-height: .53333rem;
+	color: #989898
+}
+
+.mall-catalog .catalog-list+.catalog-more {
+	margin-bottom: -.26667rem
+}
+
+.mall-catalog .catalog-group .catalog-item {
+	padding: .34667rem .66667rem;
+	font-size: .34667rem;
+	line-height: .61333rem;
+	color: #989898;
+	background: #fff;
+	-webkit-border-radius: .21333rem;
+	border-radius: .21333rem
+}
+
+.mall-catalog .catalog-group .catalog-item+.catalog-item {
+	margin-top: .26667rem
+}
+
+.mall-catalog .catalog-group .catalog-item h3 {
+	font-weight: normal;
+	font-size: .4rem;
+	line-height: .8rem;
+	color: #6d2407
+}
+
+.mall-catalog .catalog-group .catalog-item p {
+	margin: 0
+}
+
+.mall-catalog .catalog-more {
+	display: block;
+	margin: 0 -.4rem;
+	padding: .26667rem 0;
+	font-size: .4rem;
+	line-height: .8rem;
+	color: #f97534;
+	text-align: center
+}
+
+.pagination {
+	margin: .26667rem 0;
+	text-align: center
+}
+
+.pagination .dy-paging-list {
+	margin: 0
+}
+
+.pagination .dy-paging-list li {
+	display: inline-block;
+	vertical-align: top;
+	min-width: .53333rem;
+	margin: 0 .05333rem;
+	font-size: .32rem;
+	line-height: .53333rem;
+	color: #7c2f11;
+	text-align: center;
+	-webkit-border-radius: .10667rem;
+	border-radius: .10667rem
+}
+
+.pagination .dy-paging-list li a {
+	display: block;
+	color: #7c2f11
+}
+
+.pagination .dy-paging-list li.active {
+	color: #fff;
+	background: #e7a543
+}
+
+.pagination .dy-paging-list li.active a {
+	color: #fff
+}

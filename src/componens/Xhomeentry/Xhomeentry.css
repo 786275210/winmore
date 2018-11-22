@@ -1,0 +1,50 @@
+.home-entry {
+    background-color: #fff;
+	height:73px;
+	margin-bottom: 85px;
+}
+.home-entry a {
+	position: relative;
+	border: 0;
+	display: block;
+	float: left;
+	width: 25%;
+	padding: 0.4rem 0;
+	font-size: 0.34667rem;
+	line-height: 0.53333rem;
+	color: #666;
+	text-align: center;
+}
+
+.home-entry .entry-icon.group {
+	background-position: 0 0;
+}
+
+.home-entry .entry-icon {
+	display: block;
+	vertical-align: top;
+	width: 2.2rem;
+    height: 3.2rem;
+	background-image: url(../../assets/img/entry-icons.png);
+	-webkit-background-size: 10rem 1.8rem;
+	background-size: 13rem 2.8rem;
+    margin:15px 0 5px 26px;
+	
+}
+
+.home-entry .product {
+	background-position: -32px 0;
+}
+
+.home-entry .book {
+	background-position: -64px 0;
+}
+
+.home-entry .xin {
+	background-position: -124px 0;
+}
+
+.home-entry a span {
+	display: block;
+	margin-top: 0.13333rem;
+}

@@ -1,0 +1,80 @@
+#foot {
+    width: 100%;
+    height: 3.30667rem;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 998;
+    border-top: 1px solid #e5e5e5;
+}
+#foot ul>li {
+    display: inline-block;
+    width: 33.33333%;
+    box-sizing: border-box;
+    float: left;
+}
+#foot a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: .22667rem;
+}
+#foot .act .home .icon {
+    background: url(https://file.duoying.com:8092/src/mobile/member/base/img/footer/home_act.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+#foot .home .icon {
+    background: url(https://file.duoying.com:8092/src/mobile/member/base/img/footer/home.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+#foot p {
+    font-size: 16px;
+    color: #696969;
+    text-align: center;
+    margin: 0;
+    line-height: 1.4rem;
+}
+#foot .act .cread .icon {
+    background: url(https://file.duoying.com:8092/src/mobile/member/base/img/footer/list_act.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+#foot .cread .icon {
+    background: url(https://file.duoying.com:8092/src/mobile/member/base/img/footer/list.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+#foot .per .icon {
+    width: .53333rem;
+    background: url(https://file.duoying.com:8092/src/mobile/member/base/img/footer/per.png) center center no-repeat;
+    background-size: 100% 100%;
+}
+#foot a .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: -24px;
+    -webkit-margin-end: 6px;
+    -webkit-padding-start: 40px;
+}
+body {
+    position: relative;
+    width: 10rem;
+    min-width: 320px;
+    max-width: 750px;
+    height: auto;
+    min-height: 100%;
+    margin: auto;
+    padding-top: 1.17333rem;
+    font-size: .32rem;
+    line-height: .48rem;
+    font-family: -apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,STHeiti,Simhei,"Microsoft Yahei",Tahoma,Simsun,sans-serif;
+    color: #585858;
+    background-color: #f6f6f8;
+}

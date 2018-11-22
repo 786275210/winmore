@@ -1,0 +1,87 @@
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: none;
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.8);
+}
+.modal .modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 7.46667rem;
+    margin-left: -3.73333rem;
+    padding: .4rem;
+    background-color: #fff;
+    -webkit-border-radius: .13333rem;
+    border-radius: .13333rem;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+}
+
+
+.modal-dialog {
+    width: 18.26667rem !important;
+    left: 29% !important;
+ }
+.modal .modal-close {
+    position: absolute;
+    top: -1.06667rem;
+    right: -1.06667rem;
+    width: 1.85333rem;
+    height: 1.85333rem;
+    background-image: url(https://file.duoying.com:8092/src/mobile/member/base/img/modal/close.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.modal .modal-body {
+    padding: .26667rem .13333rem 0;
+    font-size: 1.2rem;
+    line-height: 1.53333rem;
+    color: #5c6064;
+}
+.modal .modal-body p.leading {
+    margin-bottom: .26667rem;
+    font-size: 1.8rem;
+    line-height: 1.66667rem;
+    color: #1b1b1b;
+}
+.modal .modal-body p+p {
+    margin-top: .13333rem;
+}
+
+.modal .modal-body p {
+    margin: 0;
+    word-break: break-all;
+}
+.modal .modal-foot {
+    margin-top: 1.26667rem;
+    padding: .26667rem .13333rem;
+    text-align: center;
+}
+.modal .modal-foot .btn-block {
+    width: 100%;
+}
+
+.modal .modal-foot .btn {
+    width: 101%;
+    padding: 0.26667rem;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    border-radius: .45333rem;
+}
+
+.btn.gradient {
+    color: #fff;
+    background-color: #f75d5c;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #f75d5c), color-stop(100%, #feb14f));
+    background-image: -webkit-linear-gradient(left, #f75d5c 0%, #feb14f 100%);
+    background-image: linear-gradient(to right, #f75d5c 0%, #feb14f 100%);
+    border: 0;
+}

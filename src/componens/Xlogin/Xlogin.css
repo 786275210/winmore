@@ -1,0 +1,208 @@
+.tab {
+	width: 100%;
+	height: 1.2rem;
+	background: #fff;
+}
+
+.tab .nva {
+	width: 200px;
+	margin: auto;
+	margin-top:30px;
+}
+
+.tab .nva a.act {
+	color: #ff6400;
+	border-bottom: 2px solid #ff6400;
+}
+
+.tab .nva a {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	text-align: center;
+	line-height: 38px;
+	color: #7f7b7b;
+	font-size: 16px;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+.tab .nva a {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	text-align: center;
+	line-height: 38px;
+	color: #7f7b7b;
+	font-size: 16px;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+#loginForm {
+	margin-top: 0;
+	width: 260px;
+	margin: auto;
+}
+
+.form {
+	margin: 0.266667rem 0;
+	padding: 0 25px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #585858;
+}
+
+.form fieldset {
+	margin: 0 -0.4rem;
+	padding: 0.133333rem 0.4rem;
+	color: #a0a0a0;
+	background-color: #fff;
+	border: 0;
+}
+
+.form fieldset {
+	margin: 0 -20px;
+	padding: 1.133333rem 1.4rem;
+	color: #a0a0a0;
+	background-color: #fff;
+	border: 0;
+	width: 260px;
+}
+
+.form .form-group {
+	position: relative;
+	margin: 16px 0;
+	overflow: hidden;
+}
+
+#loginForm .phnone {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+#loginForm .phnone img {
+	width: 14px;
+	height: 20px;
+}
+
+#loginForm .phnone input {
+	border: 0;
+}
+
+.form .form-control {
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 12px;
+	color: #585858;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: .13333rem;
+	border-radius: 10px;
+	outline: 0;
+}
+
+.form .form-group {
+	position: relative;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.form {
+	font-size: 14px;
+	line-height: 20px;
+	color: #585858;
+}
+
+#loginForm .rember_labe {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 30px;
+}
+
+#loginForm .check {
+	position: relative;
+	height: 18px;
+}
+
+#loginForm .rember span {
+	margin-left: 10px;
+}
+
+#loginForm .deng {
+	margin-top: 35px;
+}
+
+#loginForm .deng .gradient {
+	border-radius: 50px;
+}
+
+.btn-group .btn {
+	margin-top: 0;
+}
+
+.btn.gradient {
+	color: #fff;
+	background-color: #f75d5c;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #f75d5c), color-stop(100%, #feb14f));
+	background-image: -webkit-linear-gradient(left, #f75d5c 0%, #feb14f 100%);
+	background-image: linear-gradient(to right, #f75d5c 0%, #feb14f 100%);
+	border: 0;
+}
+
+.btn.btn-block {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.btn-group .btn ~ p {
+    margin: 15px 0 0 73px;
+    font-size: 14px;
+    line-height: 50px;
+}
+#loginForm .deng .hui {
+	color: #959595;
+}
+#loginForm .check input+label {
+    display: inline-block;
+    width: .4rem;
+    height: .4rem;
+    background: url(../../assets/img/ju.png) center center no-repeat;
+    background-size: 100%;
+}
+base.css:1 .btn-group a {
+	display: inline-block;
+	margin-top: 12px;
+	font-size: 14px;
+	line-height: 26px;
+}
+.account-nav a+a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 1.33333rem;
+    background-color: #efefef;
+}
+.account-nav .nav-icon.icon-2 {
+    background-position: 0 -2.3rem;
+}
+.account-nav .nav-icon.icon-4 {
+    background-position: 0 -6.6rem;
+}
+.account-nav .nav-icon.icon-5 {
+    background-position: 0 -8.66667rem;
+}
+.account-nav .nav-icon.icon-7 {
+    background-position: 0 4.5rem;
+}
+.account-nav .icon-13 {
+    background-position: 0 -21.5remm;
+}
+.account-nav .icon-12 {
+	background-position: 0 19.5rem;
+}

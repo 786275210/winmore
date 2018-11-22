@@ -1,0 +1,100 @@
+.article-box {
+    margin: 3.26667rem .4rem;
+}
+.article-box ul{
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: -35px;
+    -webkit-margin-end: 6px;
+    -webkit-padding-start: 40px;
+}
+.article-box .article-list li {
+    position: relative;
+    padding: .26667rem;
+    font-size: 0.37333rem;
+    line-height: 1.66667rem;
+    color: #585858;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: .26667rem;
+    background: #fff;
+    -webkit-border-radius: .21333rem;
+    border-radius: .21333rem;
+    -webkit-box-shadow: 0 0 14rem rgba(51, 43, 43, 0.1);
+    box-shadow: 0 0 14rem rgba(51, 43, 43, 0.1);
+}
+.article-box .article-list li a {
+    display: block;
+    color: #585858;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.article-box .article-list li h1 {
+    font-size: .34667rem;
+    color: #2b2b2c;
+    font-weight: normal;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: .26667rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.article-box .article-list li .bottom {
+    margin-top: .26667rem;
+    overflow: hidden;
+}
+.article-box .article-list li .bottom .left {
+    float: left;
+    margin: 0;
+    color: #aaaaaa;
+    font-size: .32rem;
+}
+.article-box .article-list li .bottom .ion {
+    display: block;
+    float: left;
+    margin-top: .16rem;
+    margin-right: .18667rem;
+    width: 1.29333rem;
+    height: 1.29333rem;
+    background: url(https://file.duoying.com:8092/src/mobile/member/base/img/article/time.png) center center no-repeat;
+    background-size: 100%;
+}
+.article-box .article-list li .bottom .more {
+    float: right;
+    position: relative;
+    width: 1.96667rem;
+}
+
+.article-box .article-list li .bottom p {
+    margin-right: 36px;
+    color: #aaaaaa;
+    font-size: .32rem;
+    float: left;
+}
+.article-box .article-list li .bottom .more:after {
+    content: "";
+    position: absolute;
+    top: .3667rem;
+    right: -2.986667rem;
+    display: block;
+    width: .76rem;
+    height: 1.04rem;
+    background-image: url(https://file.duoying.com:8092/src/mobile/member/base/img/article/arrow.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.article-box .article-more {
+    display: block;
+    padding: .13333rem;
+    font-size: 1.37333rem;
+    line-height: 1.96667rem;
+    color: #1b1b1b;
+    text-align: center;
+}

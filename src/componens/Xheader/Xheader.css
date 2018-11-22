@@ -1,0 +1,43 @@
+#head {
+    width: 100%;
+    height: 38px;
+    z-index: 999;
+    background: #fff;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1b1b1b;
+    font-size: .48rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#head .logo {
+    display: block;
+    width: 144px;
+    height: 20px;
+}
+#head .logo img {
+    width: 100%;
+}
+#head .right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#head .kefu {
+    display: block;
+    width: 20px;
+    height: 1.56rem;
+    background: url(https://file.duoying.com:8092/src/mobile/member/base/img/header/kefu.png) center center no-repeat;
+    background-size: 100%;
+    margin-right: .53333rem;
+}
+#head .app {
+    display: block;
+    width: 34px;
+    height: 1.56rem;
+    background: url(https://file.duoying.com:8092/src/mobile/member/base/img/header/dn_app.png) center center no-repeat;
+    background-size: 100%;
+}

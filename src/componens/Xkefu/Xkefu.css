@@ -1,0 +1,167 @@
+.app .mobiles_wrap {
+	height: 100%;
+	position: relative;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.app .mobiles {
+	font-size: 10px;
+	background: #fff;
+	overflow: scroll;
+	height: 100%;
+}
+
+.app .mobiles .title {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	line-height: 40px;
+	height: 40px;
+	font-size: 0;
+	z-index: 100;
+}
+
+.app .text-center {
+	margin-top: 33px;
+}
+
+.app .title {
+	background: #328eff;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+}
+
+.app .title {
+	background: none !important;
+	color: #222 !important;
+	box-shadow: 0px 1px 3px #d9e2ec;
+}
+
+.app .mobiles .title font {
+	font-size: 16px;
+}
+
+.app .mobiles .title .btns {
+	font-size: 16px;
+	height: 42px;
+}
+
+.app .title .btns {
+	position: absolute;
+	right: 18px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: flex;
+}
+
+.app .mobiles .title:after {
+	content: "";
+	width: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.app .mobiles .title .btns span {
+	line-height: 40px;
+	padding: 0 8px;
+}
+
+.app .title .btns span {
+	color: #e3f0ff;
+	border: 1px solid #e3f0ff;
+	transition: .3s;
+	border-radius: 3px;
+}
+
+.my-fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 myWebfont;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.mobiles .__chatbox .infos+.infos {
+	margin-top: 30px;
+}
+
+.mobiles .__chatbox .infos {
+	padding: 5px 0 10px;
+}
+
+.mobiles .__chatbox p {
+	line-height: 40px;
+}
+
+.__chatbox p {
+	color: #acbed4;
+	margin: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.mobiles .__chatbox .infos .time {
+	font-size: 8px;
+}
+
+
+
+
+.input_area {
+	width: 100px;
+	height: 100px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.msg-list {
+	width: 320px;
+	margin: 0 auto;
+	margin-top:25px;
+}
+
+.msg-list ul {
+	padding: 10px;
+	min-height: 200px;
+	overflow: hidden;
+	border: 1px solid #ddd;
+}
+
+.msg-list li {
+	float: left;
+	clear: both;
+	margin: 10px 0;
+	padding: 5px;
+	line-height: 2;
+	border-radius: 5px;
+	background-color: #efefef;
+}
+
+.msg-list li.active {
+	float: right;
+	background-color: #fc0;
+	color: #fff;
+}
+
+.msg-list textarea {
+	display: block;
+	min-height: 50px;
+	margin: 10px 0;
+	width: 100%;
+	box-sizing: border-box;
+}

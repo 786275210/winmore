@@ -1,0 +1,143 @@
+.account-dashboard {
+    margin-bottom: .26667rem;
+    padding-top: .4rem;
+    background-color: #ff4e41;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, #ff4e41), color-stop(100%, #ffab33));
+    background-image: -webkit-linear-gradient(left, #ff4e41 0%, #ffab33 100%);
+    background-image: linear-gradient(to right, #ff4e41 0%, #ffab33 100%);
+}
+
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.account-dashboard .dashboard-topbar {
+    padding: 0 .4rem;
+}
+.account-dashboard .dashboard-topbar .envelope {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 1.53333rem;
+    height: 1.53333rem;
+    margin-right: .4rem;
+    background-image: url(https://file.duoying.com:8092/src/mobile/member/account/img/envelope.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.account-dashboard .dashboard-member {
+    display: inline-block;
+    vertical-align: top;
+    height: 1.53333rem;
+    padding-right: .26667rem;
+    font-size: 1.32rem;
+    line-height: 1.56rem;
+    color: #fff;
+    background-color: rgba(255,255,255,0.2);
+    -webkit-border-radius: .26667rem;
+    border-radius: .26667rem;
+    -webkit-box-shadow: 0 0 0.18667rem rgba(205,114,25,0.6);
+    box-shadow: 0 0 0.18667rem rgba(205,114,25,0.6);
+}
+.account-dashboard .dashboard-topbar .envelope.active:after {
+    content: "";
+    position: absolute;
+    top: -.02667rem;
+    right: -.08rem;
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #34e5ff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: envelopeFlash 2s ease-in-out infinite;
+    animation: envelopeFlash 2s ease-in-out infinite;
+}
+.account-dashboard .dashboard-member .member-icon.copper {
+    background-position: 0 0;
+}
+
+
+.account-dashboard .dashboard-member .member-icon {
+    display: inline-block;
+    vertical-align: top;
+    width: 1.53333rem;
+    height: 1.53333rem;
+    background-image: url(https://file.duoying.com:8092/src/mobile/member/account/img/member-icons.png);
+    -webkit-background-size: .56rem 3.36rem;
+    background-size: 1.56rem 9.36rem;
+}
+.dashboard-member {
+    float: right;
+}
+
+.account-dashboard .dashboard-major {
+    display: block;
+    margin: .53333rem 0;
+    font-size: .32rem;
+    line-height: .48rem;
+    color: #fff;
+    text-align: center;
+}
+.account-dashboard .dashboard-major .x-large {
+    font-size: 1.56rem;
+    line-height: 3.74667rem;
+}
+.account-dashboard .dashboard-major {
+    display: block;
+    margin: .53333rem 0;
+    font-size: 1.32rem;
+    line-height: 2.48rem;
+    color: #fff;
+    text-align: center;
+}
+.account-dashboard .dashboard-major big {
+    font-size: .37333rem;
+    line-height: .53333rem;
+}
+.account-dashboard .dashboard-minor {
+    padding: 3.34667rem 0px;
+    font-size: 1.32rem;
+    line-height: 1.48rem;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255,255,255,0.1);
+}
+.account-dashboard .dashboard-minor .minor-item {
+    float: left;
+    width: 50%;
+    color: #fff;
+}
+.account-dashboard .dashboard-minor big {
+    font-size: .37333rem;
+    line-height: .53333rem;
+}
+.account-dashboard .dashboard-minor .minor-item {
+    float: left;
+    width: 50%;
+    color: #fff;
+}
+.account-dashboard .dashboard-nav {
+    padding: .26667rem 0;
+    background-color: #fff;
+}
+.account-dashboard .dashboard-nav a.yellow {
+    color: #fcc93e;
+}
+
+.account-dashboard .dashboard-nav a {
+    float: left;
+    width: 50%;
+    font-size: 1.42667rem;
+    line-height: 3.66667rem;
+    text-align: center;
+}
+.account-dashboard .dashboard-nav a.orange {
+    color: #ff6400;
+}
+
+.account-dashboard .dashboard-nav a+a {
+    border-left: 1px solid #efefef;
+}
+
