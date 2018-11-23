@@ -1,0 +1,108 @@
+.tabs {
+    overflow: hidden;
+}
+.tabs .tab-nav {
+    position: relative;
+    margin-bottom: .26667rem;
+    background-color: #faf0d2;
+    border-bottom: 4.05333rem solid #1e6450;
+    border-top: .02667rem solid #cbd0d3;
+}
+
+.margin-none {
+    margin: 0 !important;
+}
+.tabs .tab-nav a .active {
+    color: #fa7833;
+}
+
+.tabs .tab-nav a {
+    display: block;
+    float: left;
+    height: 100%;
+    font-size: .7333rem;
+    line-height: 4.28rem;
+    color: #181717;
+    text-align: center;
+}
+.tabs .tab-nav a.active.col-4 ~ .nav-border {
+    width: 33.33333%;
+}
+
+.tabs .tab-nav a.active:nth-of-type(1) ~ .nav-border {
+    -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+
+.tabs .tab-nav .nav-border {
+    position: absolute;
+    left: 0;
+    bottom: -4.05333rem;
+    height: .5333rem;
+    background-color: #fa7833;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.tabs .tab-content {
+    position: relative;
+
+    -webkit-transition: height 0.2s linear;
+    transition: height 0.2s linear;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+.tabs .tab-pane.active {
+    position: relative;
+    z-index: 11;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.tabs .tab-pane {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    float: left;
+    width: 100%;
+    opacity: 0;
+    /* visibility: hidden; */
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    -webkit-transition: -webkit-transform 0.2s linear;
+    transition: transform 0.2s linear;
+}
+
+
+.padding {
+    padding: .4rem;
+}
+
+
+.dy-project-info .dy-box-item {
+    padding: 15px 0;
+}
+
+.dy-pdt0 {
+    padding-top: 0 !important;
+}
+
+.dy-box-item {
+    margin: 0;
+}
+.dy-project-info .dy-box-title {
+    margin: 0;
+    color: #000;
+}
+
+.dy-box-title {
+    margin: 10px 0;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #231815;
+}

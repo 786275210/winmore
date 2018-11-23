@@ -3,35 +3,58 @@ import React, {
 } from "react";
 // css
 import "./Xlogin.css";
+import { Modal, Input, Icon, message, Button } from 'antd';
 import { Link } from "react-router-dom";
+import { withCookies, Cookies } from 'react-cookie';
+import { instanceOf } from 'prop-types';
 class Xlogin extends Component {
+	static propTypes = {
+		cookies: instanceOf(Cookies).isRequired
+	  };
 	constructor(props) {
 		super(props);
 		this.props = props;
 		this.state = {
 			user:'',
-			password:''
+			password:'',
+			show:'',
+			content:'',
+			users:true,
+			
 		}
 		this.userChange = this.userChange.bind(this);
         this.passwordChange = this.passwordChange.bind(this);
-        this.submit = this.submit.bind(this);
+		this.submit = this.submit.bind(this);
+		
 	}
 	userChange(e){
-        this.setState({ user : e.target.value })
+		this.setState({ 
+			user : e.target.value,
+			users : e.target.value.length>0
+		})
     }
 
     passwordChange(e){
         this.setState({ password : e.target.value })
     }
 
-    submit(e){
-		var reg =[{aa:123}]
-		if([{this.state.user:this.state.password}]===reg){
-			location.href="http://localhost:3000/#/logining/id"
+    submit(e,data){	
+		
+        const reg = new RegExp('^[1][3,4,5,7,8][0-9]{9}$'); 
+		if (!this.state.user) {
+			message.warn('请输入手机号！');
+		} else if (!reg.test(this.state.user)) {
+			message.warn('请输入格式正确的手机号！');
+		} else if (!this.state.password) {
+			message.warn('密码不能为空');
 		}
-		console.log(reg)
-        window.alert("登陆成功")
-       
+		//  else {
+		// 	this.login(this.state);
+		// }
+		else{
+			
+			this.props.history.push('/logining/id')
+		}
     }
 	render() {
 		return(
@@ -55,16 +78,7 @@ class Xlogin extends Component {
 			                    <img src="https://file.duoying.com:8092//src/mobile/member/login/img/login/phone.png" />
 			                    <input onChange={this.userChange} type="text" className="form-control" name="Mobile" id="mobile" placeholder="请输入手机号或用户名" data-regexp="*" data-null="请输入手机号或用户名！" defaultValue="" />
 			                </div>
-			            </div>
-						{
-							this.state.user.length>0?<div className="form-checktip"style= {{display: "none"}}
-						
-							>请输入手机号或用户名！</div>:<div className="form-checktip" style={{display: "block"}}
-							
-							>请输入手机号或用户名！</div>
-						 }
-
-						
+			            </div><div className="form-checktip" style={ this.state.users?{display: "none"}:{display: "block"}}>请输入手机号或用户名！</div>
 			            <div className="form-group" style={{overflow: "visible"}}>
 			                <div className="phnone">
 			                    <img src="https://file.duoying.com:8092//src/mobile/member/login/img/login/pass.png" className="pass" />
@@ -91,7 +105,8 @@ class Xlogin extends Component {
 			            </label>
 			        </div>
 			        <div className="btn-group deng">
-			            <a onClick={this.submit} type="submit" className="btn btn-block gradient">登录</a>
+		{/*<Link to={`/logining/id`} onClick={this.submit} type="submit" className="btn btn-block gradient">登录</Link>*/}
+		<a onClick={this.submit} type="submit" className="btn btn-block gradient">登录</a>
 			            <p className="clearfix pd text-center">
 			                <a className="hui" href="/God/ForgotPwd?Clear=true&amp;device=h5">忘记密码?</a>
 			            </p>

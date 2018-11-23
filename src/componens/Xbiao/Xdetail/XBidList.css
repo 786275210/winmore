@@ -1,0 +1,44 @@
+.project_list {
+    margin-top: 2.26667rem;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.project_list .head_pro {
+    width: 100%;
+    height: 1.06667rem;
+    background: #fff;
+}
+.project_list .head_pro tr {
+    height: 1.06667rem;
+    padding: 0 .4rem;
+}
+.project_list .head_pro td {
+    font-size: 1.37333rem;
+    padding:7px 0.4rem;
+    color: #2b2b2c;
+}
+.project_list tbody {
+    margin-top: .26667rem;
+    padding: 0 .4rem;
+}
+.project_list tbody tr.list {
+    border-top: .6667rem #f6f6f8 solid;
+}
+
+.project_list tbody tr {
+    background: #fff;
+    height: 3.06667rem;
+}
+.project_list tbody tr td {
+    padding: 3px 0.4rem;
+    color: #c5c5c6;
+    font-size: 12px;
+}
+
+.project_list tbody tr.bottom {
+    border-top: 1px dotted #e6e6e6;
+}

@@ -12,7 +12,7 @@ import win from './lib/win.js';
 // 状态管理
 import {Provider, connect} from 'react-redux';
 import {createStore} from 'redux';
-
+import { withCookies, Cookies } from 'react-cookie';
 //引入哈希路由#
 import { HashRouter as Router, Route , Redirect} from "react-router-dom";
 
@@ -30,7 +30,7 @@ React.axios = axios;
 const store = createStore(function(state={
     name:"laoyao",
     skill:"ps",
-    text:"取消了",
+    text:"",
     isShowactive:false,
     isShowgetway:false
     
@@ -58,6 +58,11 @@ const store = createStore(function(state={
         return {
             ...state,
             isShowgetway:action.isShowgetway
+        }
+        case 'amountsw':
+        return {
+            ...state,
+            text:action.text
         }
       default:
         return state

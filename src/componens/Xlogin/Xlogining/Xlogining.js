@@ -46,18 +46,18 @@ class Xlogining extends Component {
 				        <span>我的福利</span>
 				    </a>
 				    
-				    <a href="/Security/SafeCenter">
+					<Link to={`/logining/vip`}>
 				        <i className="nav-icon icon-7"></i><br />
 				        <span>安全中心</span>
-				    </a>
+				    </Link>
 				    <Link to={`/logining/idsignin`}>
 				        <i className="nav-icon icon-11"></i><br />
 				        <span>签到有礼</span>  
 				    </Link>
-				    <a href="https://vip.duoying.com//Mall/index?device=h5">
+					<Link to={`/logining/vip`}>
 				        <i className="nav-icon icon-13"></i><br />
 				        <span>会员福利</span>
-				    </a>
+				    </Link>
 				    <Link to={`/logining/idXhelp`}>
 				        <i className="nav-icon icon-12"></i><br />
 				        <span>帮助中心</span>

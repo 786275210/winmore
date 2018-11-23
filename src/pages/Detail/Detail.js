@@ -8,6 +8,8 @@ import "./Detail.css";
 import Xbuilding from '../../componens/Xhomenav/Xdetail/Xbuilding';
 import Xgroup from '../../componens/Xhomeentry/Xdetail/Xgroup';
 import Xcredit from '../../componens/Xbiao/Xdetail/Xcredit';
+import XProjectDetail from '../../componens/Xbiao/Xdetail/XProjectDetail';
+import XBidList from '../../componens/Xbiao/Xdetail/XBidList';
 import Xkefu from '../../componens/Xkefu/Xkefu';
 
 class Detail extends Component {
@@ -21,6 +23,8 @@ class Detail extends Component {
             <div>
             	<Route path="/detail/build" component={Xbuilding} />
 				<Route path="/detail/group" component={Xgroup} />
+                <Route path="/detail/ProjectDetail" component={XProjectDetail} />
+                <Route path="/detail/XBidList" component={XBidList} />
 				<Route path="/detail/credit" component={Xcredit} />
 				<Route path="/detail/kefu" component={Xkefu} />
             </div>
